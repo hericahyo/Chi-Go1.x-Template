@@ -53,59 +53,24 @@
     </div>
   </div>
 </nav>
-        <!-- Masthead-->
-        <header class="masthead">
-            <div class="container h-100 px-4 px-lg-5">
-                <div class="row h-100">
-                    <div class="col-md-6 ">
-                          <div class="content-1">
-                            
-                      <div class="text-left text-white top-item">
-                       <h1 class="lh-1 mb-4">Welcome to my desk</h1>
-                          <p class="mb-5">Get started by <a href="mailto:hcahyono@lyrid.io">Contact Me</a></p>
-                    </div> 
-                    </div>
-                    </div>
-                    <div class="col-md-6 align-self-center">
-                        <div class="content-2">
-                    <div class="text-left">
-                        <a href="" class="box-a ">
-                                <div class="box mb-2">
-                                    <h5>Documentation <span><i class="fas fa-arrow-right"></i></span></h5>
-                                    <p>Find in-depth information about Go Language features and API.</p>
-                                </div>
-                            </a>
-                            <a href="" class="box-a ">
-                                <div class="box mb-2">
-                                    <h5>Examples <span><i class="fas fa-arrow-right"></i></span></h5>
-                                    <p>Discover and deploy boilerplate example Go Language projects.</p>
-                                </div>
-                            </a>
-                    </div>
-                    </div>
+        <main>
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    {{< placeholder width="100%" height="100%" background="#777" color="#777" text="false" title="false" >}}
+                    <div class="container">
+                      <div class="carousel-caption text-start">
+                        <h1>Example headline.</h1>
+                        <p>Some representative placeholder content for the first slide of the carousel.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                      </div>
                     </div>
                 </div>
-            </div>
-        </header>
-        <main>
-
-  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        {{< placeholder width="100%" height="100%" background="#777" color="#777" text="false" title="false" >}}
-        <div class="container">
-          <div class="carousel-caption text-start">
-            <h1>Example headline.</h1>
-            <p>Some representative placeholder content for the first slide of the carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
-          </div>
-        </div>
-      </div>
       <div class="carousel-item">
         {{< placeholder width="100%" height="100%" background="#777" color="#777" text="false" title="false" >}}
         <div class="container">
@@ -147,19 +112,19 @@
     <!-- Three columns of text below the carousel -->
     <div class="row">
       <div class="col-lg-4">
-        {{< placeholder width="140" height="140" background="#777" color="#777" class="rounded-circle" >}}
+        <img src="..." class="rounded mx-auto d-block" alt="...">
         <h2>Heading</h2>
         <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
         <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        {{< placeholder width="140" height="140" background="#777" color="#777" class="rounded-circle" >}}
+        <img src="..." class="rounded mx-auto d-block" alt="...">
         <h2>Heading</h2>
         <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
         <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        {{< placeholder width="140" height="140" background="#777" color="#777" class="rounded-circle" >}}
+        <img src="..." class="rounded mx-auto d-block" alt="...">
         <h2>Heading</h2>
         <p>And lastly this, the third column of representative placeholder content.</p>
         <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
