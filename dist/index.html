@@ -26,10 +26,10 @@
 
     <div class="container d-flex justify-content-center p-5">
       <div class="col-lg-6 col-lg-offset-3">
-          <h4 class="text-center">Masukkan nomor dimulai dari angka 8xxxxxxxxxx</h4>
+          <h5>Kirim chat tanpa simpan kontak</h5>
           <div class="panel panel-success">
               <div class="panel-heading">
-                 <h5  class="text-center">Khusus untuk Warga +62</h5>
+                 <h5>Khusus untuk Warga +62</h5>
               </div>
               <div class="panel-body">
                 <label class="mt-2 mb-2">No whatsapp tujuan</label>
@@ -45,6 +45,27 @@
                   <div class="form-group">
                       <button class="btn btn-success send mt-2">Send</button>
                   </div>
+                    <!-- Button trigger modal -->
+                    <a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      <u style="color:#444">Petunjuk penggunaan.</u>
+                    </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Petunjuk Penggunaan</h5>
+                          </div>
+                          <div class="modal-body">
+                            <p>Masukkan nomor whatsapp tujuan Anda dengan diawali angka 8 (tanpa angka 0), dan tanpa ditambahkan karakter lainnya.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
 
                   <div id="text-info"></div>
               </div>
