@@ -75,11 +75,7 @@
   if(input_name != "" && input_phone != "" && input_product != ""){
       /* Whatsapp URL */
       var checkout_whatsapp = walink + '?phone=62' + input_phone + '&text=' + text + '%0A%0A' +
-          '*Nama* : ' + input_name + '%0A' +
-          '*Alamat Email* : ' + input_email + '%0A' +
-          '*Nomor Kontak / Whatsapp* : ' + input_phone + '%0A' +
-          '*Produk* : ' + input_product + '%0A' +
-          '*Catatan* : ' + input_description + '%0A';
+          input_description + '%0A';
 
       /* Whatsapp Window Open */
       window.open(checkout_whatsapp,'_blank');
