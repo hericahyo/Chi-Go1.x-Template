@@ -46,5 +46,8 @@ body{
 
 #petunjukPenggunaan{
    background: fade(#daf2e7, 50%) !important;
-   font-size: 12px !important;
+}
+
+.exampleModalLabel{
+  background: #daf5e9 !important; 
 }
