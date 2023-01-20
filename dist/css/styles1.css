@@ -27,10 +27,12 @@ body{
 
 .input-group-text{
   background-color: #712cf9 !important;
-  border-radius: 15px 15px 0;
+  border-radius: 15px 15px 0 !important;
+  color: #fff;
+  font-weight: 400;
 }
 
 .form-control{
-  background:transparent !important;
-  border:none;
+  background: transparent !important;
+  border: none;
 }
