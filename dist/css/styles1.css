@@ -35,6 +35,7 @@ body{
 .form-control{
   background: transparent !important;
   border: none  !important;
+  border-bottom: 1px solid #712cf9 !important;
 }
 
 .send{
