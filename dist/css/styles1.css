@@ -36,3 +36,10 @@ body{
   background: transparent !important;
   border: none  !important;
 }
+
+.send{
+  background-color: #712cf9 !important;
+  border-radius: 15px 15px 0 !important;
+  color: #fff !important;
+  font-weight: 400  !important;
+}
