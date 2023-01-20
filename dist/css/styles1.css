@@ -1,3 +1,14 @@
+body{
+ min-height:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(217deg, #f9d3d7, #f1aeb509 70.71%), 
+              linear-gradient(127deg, #c8e7d9, #a3cfbb00 70.71%), 
+              linear-gradient(37deg, #eafafe, #cff4fc20 70.71%), 
+              linear-gradient(336deg, #f0ecde, #fff3cd0c 70.71%) !important; 
+}
+
 .navbar-bground{
   background-color: #712cf9 !important;
 }
