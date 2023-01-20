@@ -36,7 +36,7 @@ body{
   background: transparent !important;
   border: none  !important;
   border-bottom: 1px solid #712cf9 !important;
-  border-radius: none !important;
+  border-radius: 0 !important;
 }
 
 .send{
