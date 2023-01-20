@@ -28,11 +28,11 @@ body{
 .input-group-text{
   background-color: #712cf9 !important;
   border-radius: 15px 15px 0 !important;
-  color: #fff;
-  font-weight: 400;
+  color: #fff !important;
+  font-weight: 400  !important;
 }
 
 .form-control{
   background: transparent !important;
-  border: none;
+  border: none  !important;
 }
