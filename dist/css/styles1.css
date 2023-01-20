@@ -45,11 +45,6 @@ body{
 }
 
 #petunjukPenggunaan{
-   background: #daf2e7 !important;
-   filter: alpha(opacity=60);
-  /* IE */
-  -moz-opacity: 0.6;
-  /* Mozilla */
-  opacity: 0.6;
+   background: fade(#daf2e7, 50%) !important;
    font-size: 12px !important;
 }
